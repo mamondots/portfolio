@@ -1,0 +1,12 @@
+.pricing_subtitle{
+    position: relative;
+}
+.pricing_subtitle::before{
+    position: absolute;
+    content:"";
+    width:100%;
+    height:1px;
+    background-color:#ffffff94;
+    left:0px;
+    bottom:-20px;
+}

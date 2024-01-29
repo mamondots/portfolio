@@ -1,0 +1,23 @@
+.banner_bg{
+    background-image:url('../../assets/img/banner_bg.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width:100%;
+}
+.banner_head{
+    line-height:1.2;
+}
+.banner_subTitle{
+    position: relative;
+    left:12px;
+}
+.banner_subTitle::before{
+    position: absolute;
+    content:"";
+    left:-12px;
+    top:0;
+    width:2px;
+    height:100%;
+    background-color:#08d665;
+}
